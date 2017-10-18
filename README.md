@@ -1,6 +1,10 @@
 1.Setting according to the README_BCNN.md.
 
-2.Modify some codes, except something introduced in the README_BCNN.md:
+2.Download something needed in the http://pan.baidu.com/s/1qXLat0C  passwd:bg97  
+  file path: Wopt/tinfo.mat
+             data/dog/(image class name, 283 classes totally)
+
+3.Some codes is modified, except something introduced in the README_BCNN.md:
     When train:
     1. imdb_bcnn_train_dag.m
         line 37 to 51, setting whether using clickconnection layer and weakly 
@@ -23,7 +27,7 @@
         help get the result of step 7.
 
 
-3.Augment the dataset by using Do_Augmentation.m
+4.Augment the dataset by using Do_Augmentation.m
 
 
 
